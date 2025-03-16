@@ -1,8 +1,171 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>catitaa linda</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>catitaa</title>
+  <style>
+    body {
+      background-color: #87CEEB;
+      font-family: 'Arial', sans-serif;
+      overflow: hidden;
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    
+    h1 {
+      color: #00ff40;
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .aaaaaaaaa {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 100px;
+      width: 100%;
+    }
+    
+    .giraaa {
+      position: relative;
+      margin: 0 2rem;
+      animation: sway 4s ease-in-out infinite alternate;
+      transform-origin: bottom center;
+    }
+    
+    .giraaa:nth-child(2) {
+      animation-delay: 0.5s;
+    }
+    
+    .giraaa:nth-child(3) {
+      animation-delay: 1s;
+    }
+    
+    @keyframes sway {
+      0% {
+        transform: rotate(-5deg);
+      }
+      100% {
+        transform: rotate(5deg);
+      }
+    }
+    
+    .tallo {
+      width: 8px;
+      height: 180px;
+      background-color: #228B22;
+      margin: 0 auto;
+      position: relative;
+      z-index: 5;
+    }
+    
+    .hoja {
+      width: 40px;
+      height: 20px;
+      background-color: #32CD32;
+      border-radius: 50%;
+      position: absolute;
+    }
+    
+    .hoja.left {
+      transform: rotate(30deg);
+      left: -30px;
+      top: 50px;
+    }
+    
+    .hoja.right {
+      transform: rotate(-30deg);
+      right: -30px;
+      top: 100px;
+    }
+    
+    .flor {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      margin-bottom: -4px;
+    }
+    
+    .centro {
+      width: 70px;
+      height: 70px;
+      background-color: #8B4513;
+      border-radius: 50%;
+      position: absolute;
+      top: 20px;
+      left: 15px;
+      z-index: 10;
+    }
+    
+    .petaloss {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      animation: spin 20s linear infinite;
+      transform-origin: center center;
+      z-index: 10;
+    }
+    
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .petalos {
+      position: absolute;
+      width: 80px;
+      height: 18px;
+      background-color: #FFD700;
+      border-radius: 50%;
+      top: 43px;
+      left: 50px;
+      transform-origin: 0 50%;
+    }
+    
+    .tierra{
+      width: 100%;
+      height: 100px;
+      background-color: #8B4513;
+      position: fixed;
+      bottom: 0;
+    }
+    
+    .pasto {
+      position: absolute;
+      bottom: 100px;
+      width: 100%;
+      height: 10px;
+      background-color: #32CD32;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+
+    
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 0 40px rgba(255, 215, 0, 0.7);
+      }
+      50% {
+        transform: scale(1.1);
+        box-shadow: 0 0 60px rgba(255, 215, 0, 0.9);
+      }
+    }
+  </style>
 </head>
 <body>
   <h1>te quiero mucho cataaaa</h1>
